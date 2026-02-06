@@ -1,0 +1,61 @@
+body{
+    /* background-color:orchid; */
+      /* background: linear-gradient(135deg, #667eea, #764ba2); */
+       background: linear-gradient(135deg, #232526, #414345);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+
+   align-items: center;
+   padding-bottom: 20px;
+  
+   
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:dimgray;
+    width:400px;
+    padding-bottom: 20px;
+   
+}
+
+
+
+#input{
+   margin:4px;
+   width:275px;
+   height:30px;
+   padding: 13px;
+}
+
+.row
+{
+    background-color:white;
+    width:300px;
+
+
+}
+button{
+    padding: 30px;
+    border-radius: 55%;
+    border: none;
+    margin:1px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+
+
+}
+.operator{
+    color: orange;
+}
+button:hover{
+    background-color: blue;
+}
+
+
+
